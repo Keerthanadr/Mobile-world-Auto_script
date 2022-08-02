@@ -12,6 +12,9 @@ public class sign_in_ {
     driver.get("https://mobileworld.azurewebsites.net/");
     driver.manage().window().maximize();
     driver.findElement(By.xpath("//button[@class='btn btn-warning my-2 my-sm-0']")).click();
+    river.findElement(By.xpath("//a[@href='signup.html']")).click();
+    driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("keerthana");
+    driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("gowda");
     }    
 }
 	
