@@ -16,6 +16,8 @@ public class sign_in_ {
     driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("keerthana");
     driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("gowda");
     driver.findElement(By.xpath("//a[@href='signup.html']")).click();
+    driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("keerthana");
+    driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("gowda");
     }    
 }
 	
