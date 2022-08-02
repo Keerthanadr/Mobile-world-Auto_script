@@ -26,6 +26,8 @@ public class sign_in_ {
     driver.findElement(By.xpath("//textarea[@placeholder='Short Bio']")).sendKeys("hi everyone");
     driver.findElement(By.xpath("//button[@class='btn btn-info form-control']")).click();
     Thread.sleep(2000);
+    driver.switchTo().alert().accept();
+    driver.findElement(By.xpath("//button[@type='Submit']")).click();
     }    
 }
 	
