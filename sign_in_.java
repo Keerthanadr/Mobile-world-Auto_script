@@ -24,6 +24,8 @@ public class sign_in_ {
     driver.findElement(By.xpath("//div[@class='col-md-2']/input[@type='radio']")).click();
     driver.findElement(By.xpath("//input[@placeholder='91XXXXXXXXXX']")).sendKeys("9071676564");
     driver.findElement(By.xpath("//textarea[@placeholder='Short Bio']")).sendKeys("hi everyone");
+    driver.findElement(By.xpath("//button[@class='btn btn-info form-control']")).click();
+    Thread.sleep(2000);
     }    
 }
 	
